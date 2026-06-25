@@ -1,0 +1,599 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "cloud",
+      "title": "Clouds",
+      "icon": "cloud",
+      "options": [
+        {
+          "key": "cloud:aws",
+          "name": "AWS",
+          "hints": [
+            "amazon",
+            "aws"
+          ]
+        },
+        {
+          "key": "cloud:azure",
+          "name": "Microsoft Azure",
+          "hints": [
+            "azure"
+          ]
+        },
+        {
+          "key": "cloud:gcp",
+          "name": "Google Cloud",
+          "hints": [
+            "gcp",
+            "google_cloud"
+          ]
+        },
+        {
+          "key": "cloud:oracle",
+          "name": "Oracle Cloud",
+          "hints": [
+            "oracle_cloud",
+            "oci"
+          ]
+        },
+        {
+          "key": "cloud:ibm",
+          "name": "IBM Cloud",
+          "hints": [
+            "ibm"
+          ]
+        },
+        {
+          "key": "cloud:alibaba",
+          "name": "Alibaba Cloud",
+          "hints": [
+            "alibaba"
+          ]
+        },
+        {
+          "key": "cloud:digitalocean",
+          "name": "DigitalOcean",
+          "hints": [
+            "digitalocean"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idp",
+      "title": "Identity Providers",
+      "icon": "person.badge.key",
+      "options": [
+        {
+          "key": "idp:okta",
+          "name": "Okta",
+          "hints": [
+            "okta"
+          ]
+        },
+        {
+          "key": "idp:entra",
+          "name": "Microsoft Entra ID",
+          "hints": [
+            "entra",
+            "azure_active_directory"
+          ]
+        },
+        {
+          "key": "idp:google",
+          "name": "Google Workspace",
+          "hints": [
+            "google_workspace",
+            "gsuite"
+          ]
+        },
+        {
+          "key": "idp:ping",
+          "name": "Ping Identity",
+          "hints": [
+            "pingidentity",
+            "ping"
+          ]
+        },
+        {
+          "key": "idp:onelogin",
+          "name": "OneLogin",
+          "hints": [
+            "onelogin"
+          ]
+        },
+        {
+          "key": "idp:duo",
+          "name": "Cisco Duo",
+          "hints": [
+            "duo"
+          ]
+        },
+        {
+          "key": "idp:jumpcloud",
+          "name": "JumpCloud",
+          "hints": [
+            "jumpcloud"
+          ]
+        },
+        {
+          "key": "idp:auth0",
+          "name": "Auth0",
+          "hints": [
+            "auth0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endpoint",
+      "title": "Endpoint / EDR",
+      "icon": "laptopcomputer.and.iphone",
+      "options": [
+        {
+          "key": "endpoint:crowdstrike",
+          "name": "CrowdStrike Falcon",
+          "hints": [
+            "crowdstrike",
+            "falcon"
+          ]
+        },
+        {
+          "key": "endpoint:defender",
+          "name": "Microsoft Defender",
+          "hints": [
+            "defender"
+          ]
+        },
+        {
+          "key": "endpoint:sentinelone",
+          "name": "SentinelOne",
+          "hints": [
+            "sentinelone"
+          ]
+        },
+        {
+          "key": "endpoint:cortex",
+          "name": "Palo Alto Cortex XDR",
+          "hints": [
+            "cortex"
+          ]
+        },
+        {
+          "key": "endpoint:sophos",
+          "name": "Sophos",
+          "hints": [
+            "sophos"
+          ]
+        },
+        {
+          "key": "endpoint:trendmicro",
+          "name": "Trend Micro",
+          "hints": [
+            "trendmicro",
+            "trend_micro"
+          ]
+        },
+        {
+          "key": "endpoint:carbonblack",
+          "name": "VMware Carbon Black",
+          "hints": [
+            "carbon_black"
+          ]
+        },
+        {
+          "key": "endpoint:trellix",
+          "name": "Trellix",
+          "hints": [
+            "trellix",
+            "mcafee",
+            "fireeye"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software",
+      "title": "Software Vendors",
+      "icon": "shippingbox",
+      "options": [
+        {
+          "key": "software:microsoft",
+          "name": "Microsoft",
+          "hints": [
+            "microsoft"
+          ]
+        },
+        {
+          "key": "software:google",
+          "name": "Google",
+          "hints": [
+            "google"
+          ]
+        },
+        {
+          "key": "software:atlassian",
+          "name": "Atlassian",
+          "hints": [
+            "atlassian"
+          ]
+        },
+        {
+          "key": "software:salesforce",
+          "name": "Salesforce",
+          "hints": [
+            "salesforce"
+          ]
+        },
+        {
+          "key": "software:sap",
+          "name": "SAP",
+          "hints": [
+            "sap"
+          ]
+        },
+        {
+          "key": "software:oracle",
+          "name": "Oracle",
+          "hints": [
+            "oracle"
+          ]
+        },
+        {
+          "key": "software:servicenow",
+          "name": "ServiceNow",
+          "hints": [
+            "servicenow"
+          ]
+        },
+        {
+          "key": "software:adobe",
+          "name": "Adobe",
+          "hints": [
+            "adobe"
+          ]
+        },
+        {
+          "key": "software:github",
+          "name": "GitHub",
+          "hints": [
+            "github"
+          ]
+        },
+        {
+          "key": "software:gitlab",
+          "name": "GitLab",
+          "hints": [
+            "gitlab"
+          ]
+        },
+        {
+          "key": "software:zoom",
+          "name": "Zoom",
+          "hints": [
+            "zoom"
+          ]
+        },
+        {
+          "key": "software:workday",
+          "name": "Workday",
+          "hints": [
+            "workday"
+          ]
+        },
+        {
+          "key": "software:veeam",
+          "name": "Veeam",
+          "hints": [
+            "veeam"
+          ]
+        },
+        {
+          "key": "software:winrar",
+          "name": "WinRAR",
+          "hints": [
+            "winrar",
+            "rarlab"
+          ]
+        },
+        {
+          "key": "software:kubernetes",
+          "name": "Kubernetes",
+          "hints": [
+            "kubernetes",
+            "k8s"
+          ]
+        },
+        {
+          "key": "software:docker",
+          "name": "Docker",
+          "hints": [
+            "docker"
+          ]
+        },
+        {
+          "key": "software:grafana",
+          "name": "Grafana",
+          "hints": [
+            "grafana"
+          ]
+        },
+        {
+          "key": "software:prometheus",
+          "name": "Prometheus",
+          "hints": [
+            "prometheus"
+          ]
+        },
+        {
+          "key": "software:elastic",
+          "name": "Elastic / ELK",
+          "hints": [
+            "elasticsearch",
+            "kibana",
+            "logstash"
+          ]
+        },
+        {
+          "key": "software:hashicorp",
+          "name": "HashiCorp",
+          "hints": [
+            "terraform",
+            "hashicorp",
+            "consul"
+          ]
+        },
+        {
+          "key": "software:jenkins",
+          "name": "Jenkins",
+          "hints": [
+            "jenkins"
+          ]
+        },
+        {
+          "key": "software:argocd",
+          "name": "Argo CD",
+          "hints": [
+            "argocd"
+          ]
+        },
+        {
+          "key": "software:helm",
+          "name": "Helm",
+          "hints": [
+            "helm"
+          ]
+        },
+        {
+          "key": "software:nginx",
+          "name": "NGINX",
+          "hints": [
+            "nginx"
+          ]
+        },
+        {
+          "key": "software:redis",
+          "name": "Redis",
+          "hints": [
+            "redis"
+          ]
+        },
+        {
+          "key": "software:kafka",
+          "name": "Apache Kafka",
+          "hints": [
+            "kafka"
+          ]
+        },
+        {
+          "key": "software:rabbitmq",
+          "name": "RabbitMQ",
+          "hints": [
+            "rabbitmq"
+          ]
+        },
+        {
+          "key": "software:postgresql",
+          "name": "PostgreSQL",
+          "hints": [
+            "postgresql",
+            "postgres"
+          ]
+        },
+        {
+          "key": "software:mongodb",
+          "name": "MongoDB",
+          "hints": [
+            "mongodb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "title": "Hardware / Network",
+      "icon": "server.rack",
+      "options": [
+        {
+          "key": "hardware:cisco",
+          "name": "Cisco",
+          "hints": [
+            "cisco"
+          ]
+        },
+        {
+          "key": "hardware:fortinet",
+          "name": "Fortinet",
+          "hints": [
+            "fortinet"
+          ]
+        },
+        {
+          "key": "hardware:paloalto",
+          "name": "Palo Alto Networks",
+          "hints": [
+            "paloalto",
+            "palo_alto_networks"
+          ]
+        },
+        {
+          "key": "hardware:juniper",
+          "name": "Juniper",
+          "hints": [
+            "juniper"
+          ]
+        },
+        {
+          "key": "hardware:dell",
+          "name": "Dell",
+          "hints": [
+            "dell"
+          ]
+        },
+        {
+          "key": "hardware:hp",
+          "name": "HP / HPE",
+          "hints": [
+            "hp",
+            "hewlett"
+          ]
+        },
+        {
+          "key": "hardware:lenovo",
+          "name": "Lenovo",
+          "hints": [
+            "lenovo"
+          ]
+        },
+        {
+          "key": "hardware:vmware",
+          "name": "VMware",
+          "hints": [
+            "vmware"
+          ]
+        },
+        {
+          "key": "hardware:citrix",
+          "name": "Citrix",
+          "hints": [
+            "citrix"
+          ]
+        },
+        {
+          "key": "hardware:f5",
+          "name": "F5",
+          "hints": [
+            "f5"
+          ]
+        },
+        {
+          "key": "hardware:apple",
+          "name": "Apple",
+          "hints": [
+            "apple"
+          ]
+        },
+        {
+          "key": "hardware:arista",
+          "name": "Arista",
+          "hints": [
+            "arista"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Security Vendors",
+      "icon": "shield.lefthalf.filled",
+      "options": [
+        {
+          "key": "security:zscaler",
+          "name": "Zscaler",
+          "hints": [
+            "zscaler"
+          ]
+        },
+        {
+          "key": "security:splunk",
+          "name": "Splunk",
+          "hints": [
+            "splunk"
+          ]
+        },
+        {
+          "key": "security:rapid7",
+          "name": "Rapid7",
+          "hints": [
+            "rapid7"
+          ]
+        },
+        {
+          "key": "security:tenable",
+          "name": "Tenable",
+          "hints": [
+            "tenable",
+            "nessus"
+          ]
+        },
+        {
+          "key": "security:qualys",
+          "name": "Qualys",
+          "hints": [
+            "qualys"
+          ]
+        },
+        {
+          "key": "security:wiz",
+          "name": "Wiz",
+          "hints": [
+            "wiz"
+          ]
+        },
+        {
+          "key": "security:cloudflare",
+          "name": "Cloudflare",
+          "hints": [
+            "cloudflare"
+          ]
+        },
+        {
+          "key": "security:proofpoint",
+          "name": "Proofpoint",
+          "hints": [
+            "proofpoint"
+          ]
+        },
+        {
+          "key": "security:checkpoint",
+          "name": "Check Point",
+          "hints": [
+            "check_point"
+          ]
+        },
+        {
+          "key": "security:cisco",
+          "name": "Cisco Security",
+          "hints": [
+            "cisco"
+          ]
+        },
+        {
+          "key": "security:ivanti",
+          "name": "Ivanti",
+          "hints": [
+            "ivanti"
+          ]
+        },
+        {
+          "key": "security:sonicwall",
+          "name": "SonicWall",
+          "hints": [
+            "sonicwall"
+          ]
+        }
+      ]
+    }
+  ]
+}
